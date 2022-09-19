@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-19T13:18:47 IST" name="Default suite" finished-at="2022-09-19T13:19:49 IST" duration-ms="61756">
+    <groups>
+    </groups>
+    <test started-at="2022-09-19T13:18:47 IST" name="Default test" finished-at="2022-09-19T13:19:49 IST" duration-ms="61756">
+      <class name="testClass.ExtendReport">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:18:47 IST" name="beforeClass" finished-at="2022-09-19T13:19:32 IST" duration-ms="44708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="brforeMethod()[pri:0, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:19:32 IST" name="brforeMethod" finished-at="2022-09-19T13:19:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method signature="verifyLogInPage()[pri:0, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:19:32 IST" name="verifyLogInPage" finished-at="2022-09-19T13:19:38 IST" duration-ms="5434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:19:38 IST" name="afterMethod" finished-at="2022-09-19T13:19:44 IST" duration-ms="6799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogInPage status=SUCCESS method=ExtendReport.verifyLogInPage()[pri:0, instance:testClass.ExtendReport@6572421] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="brforeMethod()[pri:0, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:19:44 IST" name="brforeMethod" finished-at="2022-09-19T13:19:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method signature="verifyHomePage()[pri:1, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:19:44 IST" name="verifyHomePage" finished-at="2022-09-19T13:19:49 IST" duration-ms="4342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClass.ExtendReport@6572421]" started-at="2022-09-19T13:19:49 IST" name="afterMethod" finished-at="2022-09-19T13:19:49 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=ExtendReport.verifyHomePage()[pri:1, instance:testClass.ExtendReport@6572421] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClass.ExtendReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
